@@ -76,6 +76,11 @@ export const profile: Profile = {
       url: "https://github.com/Haleymhm/",
       icon: "bi-github",
     },
+    {
+      name: "cv",
+      url: "/files/Haleym_Hidalgo-CV.pdf",
+      icon: "bi-file-pdf",  
+    },
   ],
   info: [
     { label: "Birthday", value: "1 May 1995", icon: "bi-chevron-right" },

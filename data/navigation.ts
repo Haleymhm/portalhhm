@@ -11,9 +11,10 @@ export const navigation: NavItem[] = [
   { href: "#resume", label: "Resume", icon: "bi-file-earmark-text navicon" },
   { href: "#portfolio", label: "Portfolio", icon: "bi-images navicon" },
   { href: "#services", label: "Services", icon: "bi-hdd-stack navicon" },
+  { href: "#contact", label: "Contact", icon: "bi-envelope navicon" },
   {
-    href: "#",
-    label: "Dropdown",
+    href: "/blog",
+    label: "Blog",
     icon: "bi-menu-button navicon",
     children: [
       { href: "#", label: "Dropdown 1" },
@@ -32,6 +33,5 @@ export const navigation: NavItem[] = [
       { href: "#", label: "Dropdown 3" },
       { href: "#", label: "Dropdown 4" },
     ],
-  },
-  { href: "#contact", label: "Contact", icon: "bi-envelope navicon" },
+  },  
 ];
